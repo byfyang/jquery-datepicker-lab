@@ -35,5 +35,5 @@ var month = new Array("Jan","Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Se
 
 // 4. Now we have everything we need to create our HTML string. Use jQuery's .html() method.
 
-var now = $("#todayDate").html(month[currentMonth], );
+var now = $("#todayDate").html(month[currentMonth]+ "/" + todayDate "/" currentYear);
 // $("#todayDate").html(____);
